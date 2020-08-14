@@ -28,7 +28,6 @@ const Contact= () => {
       }));
     }
     return () => {
-      //@ts-ignore
       if (vantaEffect) vantaEffect.destroy();
     }
   }, [vantaEffect]);
@@ -38,7 +37,7 @@ const Contact= () => {
       <div className="contact-me-container">
         <h1 className="animated animatedFadeRight fadeInRight">Contact Me</h1>
         <nav className="contact-icon-container animated animatedFadeRight fadeInRight">
-          <a className="contact-icon-wrapper" href="https://drive.google.com/file/d/1CPeWLeXQSmXTI9CcWJOQGqLU-0XN6dI1/view?usp=sharing" target="_blank">
+          <a className="contact-icon-wrapper" href="https://drive.google.com/file/d/1dwIWX1ftXhmCwe4qKRSUM7ZT3XlMBu0A/view?usp=sharing" target="_blank">
             <AssignmentIndIcon />
           </a>
           <a className="contact-icon-wrapper" href="mailto:taelim92@gmail.com" target="_blank">
@@ -56,11 +55,11 @@ const Contact= () => {
         </nav>
       </div>
       <div className="locations-container animated animatedFadeRight fadeInRight">
-        <p>I am interested in work at these locations</p>
+        <p>I am interested in work and relocation to these areas</p>
         <ul className="locations-list">
           <li>San Fracisco Bay Area</li>
           <li>Greater Los Angeles Area</li>
-          <li>Dallas, TX</li>
+          <li>Austin, TX</li>
           <li>New York, NY</li>
           <li>Chicago, IL</li>
         </ul>

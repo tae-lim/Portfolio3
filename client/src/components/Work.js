@@ -57,7 +57,7 @@ const Work = () => {
 
   const vps = {
     name: 'Virtual Power Systems',
-    description: 'Jr. Front End Developer | Milpitas, CA',
+    description: 'Front End Developer | Milpitas, CA',
     img: VPSIcon,
     url: 'http://www.virtualpowersystems.com/',
     feLanguages: 'HTML, CSS, JavaScript',
@@ -66,7 +66,7 @@ const Work = () => {
 
   const portfolio = {
     name: 'Portfolio',
-    description: 'Personal Portfolio for showcasing work experience',
+    description: 'Personal Portfolio showcasing work experience',
     img: PortolioIcon,
     url: 'http://www.taelim.dev',
     feLanguages: 'HTML, CSS, TypeScript',
@@ -85,7 +85,7 @@ const Work = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#00539CFF', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #00539CFF' }}
-            date="2020 - present"
+            date="2020"
             icon={<PersonIcon />}
             iconStyle={{ background: '#00539CFF', color: '#fff' }}
           >
@@ -96,7 +96,7 @@ const Work = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#00539CFF', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #00539CFF' }}
-            date="2019 - present"
+            date="2019 - 2020"
             icon={<WorkIcon />}
             iconStyle={{ background: '#00539CFF', color: '#fff' }}
           >

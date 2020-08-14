@@ -28,8 +28,10 @@ const Skills = () => {
         <div className="skills-info-container animated animatedFadeRight fadeInRight">
           <h1>Skills</h1>
           <div className="skills-info">
-            <p>These are technologies I've worked with to develop applications, implement features, and debug code</p>
-            <p>I am currently working towards learning Typescript, Python/Django, and GraphQL</p>
+            <p>These are tools and technologies I've worked with professionally and on side projects</p>
+            <p>During Covid, I developed this website in order learn React Hooks and Typescript</p>
+            <p>I also learned Python and developed a stronger foundation with data structures and algorithms</p>
+            <p className="side-note"> Sidenote: I understand the word cloud is bad UI but I just thought it looked cool :)</p>
           </div>
         </div>
 

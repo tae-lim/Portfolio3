@@ -25,7 +25,6 @@ const About = () => {
       }));
     }
     return () => {
-      //@ts-ignore
       if (vantaEffect) vantaEffect.destroy();
     }
   }, [vantaEffect]);
@@ -38,9 +37,9 @@ const About = () => {
       </div>
       <div className="about-section-container animated animatedFadeRight fadeInRight">
         <div className="about-section">
-          <p>My name is Tae and I've always had an enthusiasm for technology growing up in Silicon Valley</p>
-          <p>I'm consistently learning new languages, technologies, and methodologies to further improve my engineering and communication capabilities</p>
-          <p>Solving challenging problems in open-communication environments where autonomy is valued and teamwork is a given are my forte!</p>
+          <p>I'm Tae. I constantly seek new challenges and I'm not afraid to fail in the pursuit of greatness</p>
+          <p>Because of my relentless desire to provide value for this world, I constantly seek growth in all facets of life</p>
+          <p>I thrive in environments where everyone is respected and there's an open platform to voice opinions</p>
         </div>
         <div className="about-section animated animatedFadeLeft fadeInLeft">
           <img className="animated animatedFadeLeft fadeInLeft" src={TaeIcon} alt="Tae Lim"/>
