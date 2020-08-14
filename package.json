@@ -19,10 +19,20 @@
   },
   "homepage": "https://github.com/tae-lim/react-boilerplate#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-css-transition-replace": "^4.0.2",
+    "react-dom": "^16.8.4",
+    "react-particles-js": "^3.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-transition-group": "^4.4.1",
+    "react-vertical-timeline-component": "^3.0.2",
+    "three": "^0.119.1",
+    "vanta": "^0.5.18"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
