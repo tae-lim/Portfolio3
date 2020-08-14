@@ -1,12 +1,17 @@
-import React, { Component } from 'react';
-// import { BrowserRouter, Router, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Sidebar from './Sidebar';
 
 const App = () => {
 
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Router>
+      <div className="main-container">
+        <Sidebar />
+        <h1>hello</h1>
+      </div>
+    </Router>
   )
 }
 
