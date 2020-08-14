@@ -29,7 +29,7 @@ const Skills = () => {
           <h1>Skills</h1>
           <div className="skills-info">
             <p>These are tools and technologies I've worked with professionally and on side projects</p>
-            <p>During Covid, I developed this website in order learn React Hooks and Typescript</p>
+            <p>During quarantine, I developed this website in order learn React Hooks and Typescript</p>
             <p>I also learned Python and developed a stronger foundation with data structures and algorithms</p>
             <p className="side-note"> Sidenote: I understand the word cloud is bad UI but I just thought it looked cool :)</p>
           </div>
