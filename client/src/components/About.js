@@ -39,7 +39,7 @@ const About = () => {
         <div className="about-section">
           <p>I'm Tae. I constantly seek new challenges and I'm not afraid to fail in the pursuit of greatness</p>
           <p>Because of my relentless desire to provide value for this world, I constantly seek growth in all facets of life</p>
-          <p>I thrive in environments where everyone is respected and there's an open platform to voice opinions</p>
+          <p>I thrive in environments where there's an open platform to voice opinions and everyone is respected</p>
         </div>
         <div className="about-section animated animatedFadeLeft fadeInLeft">
           <img className="animated animatedFadeLeft fadeInLeft" src={TaeIcon} alt="Tae Lim"/>

@@ -9,6 +9,13 @@ import CallIcon from '@material-ui/icons/Call';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 
 const Sidebar = props => {
+  HomeIcon.displayName = 'HomeIcon';
+  FaceIcon.displayName = 'FaceIcon';
+  WorkIcon.displayName = 'WorkIcon';
+  CodeIcon.displayName = 'CodeIcon';
+  CallIcon.displayName = 'CallIcon';
+  AssignmentIndIcon.displayName = 'AssignmentIndIcon';
+  
   return (
     <div className="sidebar-container">
       <div className="logo-container"><Link to="/">TL</Link></div>
